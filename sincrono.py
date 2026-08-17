@@ -1,5 +1,5 @@
 import time
-import httpx
+import httpx #thread safe
 
 from typing import Tuple
 

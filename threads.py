@@ -43,3 +43,5 @@ if __name__ == "__main__":
 
     threads_duration = time.perf_counter() - start
     print(threads_duration)
+
+# Muito mas rápido, mas a  bronca é que cria uma thread pra cada requisição, e isso não é escalável.
